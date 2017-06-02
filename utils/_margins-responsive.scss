@@ -27,7 +27,7 @@ $queries: (s: --small, m: --medium, l: --large, xl: --extra-large);
     }    
 }
 
-@include responsive-margins ($media);
+@include responsive-margins ('');
 
 @each $media, $query in $queries {    
     @media (#{$query}) {    
