@@ -72,7 +72,7 @@
 @media (--medium) {
   ._show-m,
   ._hide-s,
-  ._hide-xm,
+  ._hide-xs,
   ._hide-l,
   ._hide-xl {
     @include show-conditional;
@@ -80,7 +80,7 @@
 
   ._hide-m,
   ._show-s,
-  ._show-xm,
+  ._show-xs,
   ._show-l,
   ._show-xl {
     @include hide-conditional;
